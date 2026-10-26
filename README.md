@@ -128,15 +128,4 @@ To check runtime switching, select addition, subtraction, and multiplication in 
 - The selected strategy is stored in a private field.
 - `Calculator` delegates through an interface instead of checking concrete operation types.
 
-## Limitations
 
-- A non-null strategy must be selected before calling `calculate`. The shown implementation does not validate this condition; an unset or null strategy causes `NullPointerException` when used.
-- Calculations use Java `int` values. Arithmetic overflow is not checked.
-- The demonstration uses fixed operands and has no interactive input.
-- The class name `SubstractStrategy` contains a spelling error; a correction would require updating the file name and all references consistently.
-
-## Documentation and Verification Status
-
-This README was prepared with AI assistance from the student's supplied code screenshots. It describes that visible implementation; the source files were not compiled or executed during preparation of this document. Compatibility with JDK 17 still requires an actual project run. No repository upload or course submission is claimed.
-
-AI assistance was used for reference explanations and documentation drafting. Use of this document must remain within the assignment's AI policy; authorship of the implementation and responsibility for the final submission remain with the student.
